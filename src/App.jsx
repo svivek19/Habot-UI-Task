@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import SignIn from "./components/SignIn";
 import VideoSection from "./components/VideoSection";
 import GetVerified from "./components/GetVerified";
+import Works from "./components/Works";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <SignIn />
       <VideoSection />
       <GetVerified />
+      <Works />
     </div>
   );
 };
