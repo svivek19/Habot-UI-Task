@@ -5,6 +5,7 @@ import SignIn from "./components/SignIn";
 import VideoSection from "./components/VideoSection";
 import GetVerified from "./components/GetVerified";
 import Works from "./components/Works";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <VideoSection />
       <GetVerified />
       <Works />
+      <Footer />
     </div>
   );
 };
