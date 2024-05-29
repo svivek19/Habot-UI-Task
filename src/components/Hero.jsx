@@ -1,5 +1,7 @@
 import React from "react";
 import bg from "../assets/bg.png";
+import { IoMdMail } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
 
 const Hero = () => {
   return (
@@ -23,16 +25,22 @@ const Hero = () => {
           Explore Matching Opportunities.
         </h2>
         <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 w-full max-w-3xl mx-auto">
-          <input
-            type="text"
-            placeholder="Search your required service here"
-            className="px-4 py-2 bg-white text-[#6B7280] text-[15px] rounded-[5px] outline-none w-full md:w-auto"
-          />
-          <input
-            type="text"
-            placeholder="Search your desired location here"
-            className="px-4 py-2 bg-white text-[#6B7280] text-[15px] rounded-[5px] outline-none w-full md:w-auto"
-          />
+          <div className="flex flex-1 px-4 py-2 bg-white rounded-[5px] items-center space-x-1">
+            <IoMdMail className="text-[#E7760D] text-2xl" />
+            <input
+              type="text"
+              placeholder="Search your required service here"
+              className="text-[#6B7280] text-[15px] rounded-[5px] outline-none w-full"
+            />
+          </div>
+          <div className="flex flex-1 px-4 py-2 bg-white rounded-[5px] items-center space-x-1">
+            <IoLocationSharp className="text-[#E7760D] text-2xl" />
+            <input
+              type="text"
+              placeholder="Search your desired location here"
+              className="text-[#6B7280] text-[15px] rounded-[5px] outline-none w-full"
+            />
+          </div>
           <button className="px-8 py-2 bg-[#00732F] text-white rounded-[5px] w-full md:w-auto">
             Search
           </button>
@@ -40,7 +48,7 @@ const Hero = () => {
         <p className="text-[18px] font-bold my-4">
           Are you a buyer?{" "}
           <span className="underline font-normal">
-            Click here if you are looking to post a requirements
+            Click here if you are looking to post a requirement
           </span>
         </p>
       </div>
