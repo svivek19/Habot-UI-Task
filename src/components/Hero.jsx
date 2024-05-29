@@ -37,6 +37,12 @@ const Hero = () => {
             Search
           </button>
         </div>
+        <p className="text-[18px] font-bold my-4">
+          Are you a buyer?{" "}
+          <span className="underline font-normal">
+            Click here if you are looking to post a requirements
+          </span>
+        </p>
       </div>
     </div>
   );
