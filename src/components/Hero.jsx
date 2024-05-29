@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
         <p className="text-[18px] font-bold my-4">
           Are you a buyer?{" "}
-          <span className="underline font-normal">
+          <span className="underline underline-offset-4 font-normal">
             Click here if you are looking to post a requirement
           </span>
         </p>
